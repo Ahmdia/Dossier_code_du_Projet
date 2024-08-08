@@ -321,7 +321,7 @@ namespace GUI_Interface
                 {
                     richTextBox2.Text += $"Received byte length: {received.Length}\n";
                 }));
-                // Assumer que les données reçues sont des uint32_t
+             
                // Assumer que les données reçues sont des uint16_t
         int numberOfUint16 = received.Length / sizeof(ushort);
         ushort[] dataArray = new ushort[numberOfUint16];
